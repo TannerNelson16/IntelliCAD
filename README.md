@@ -9,17 +9,42 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TannerNelson16/IntelliCAD/releases/latest">
-    <img src="https://img.shields.io/badge/Download-IntelliCAD_v1.0.0_(Linux_x86__64)-00a8e8?style=for-the-badge&logo=linux&logoColor=white" alt="Download Latest Release"/>
+  <a href="https://github.com/TannerNelson16/IntelliCAD/releases/download/v1.0.0/intellicad_1.0.0_amd64.deb">
+    <img src="https://img.shields.io/badge/Download-.deb_Package_(Ubuntu%2FDebian)-00a8e8?style=for-the-badge&logo=debian&logoColor=white" alt="Download .deb Package"/>
+  </a>
+  <a href="https://github.com/TannerNelson16/IntelliCAD/releases/download/v1.0.0/IntelliCAD-v1.0.0-Linux-x86_64.tar.gz">
+    <img src="https://img.shields.io/badge/Download-.tar.gz_Archive-0077b6?style=for-the-badge&logo=linux&logoColor=white" alt="Download tar.gz Archive"/>
   </a>
   <img src="https://img.shields.io/badge/License-Proprietary_(All_Rights_Reserved)-ff6b6b?style=for-the-badge" alt="Proprietary License"/>
 </p>
 
 ---
 
-## 🚀 Quick Download & Try It Out (Ubuntu / Linux x86_64)
+## 🚀 Quick Download & Installation (Ubuntu / Debian / Linux x86_64)
 
-1. **Download the latest release package** from the [**Releases Page**](https://github.com/TannerNelson16/IntelliCAD/releases/latest) (`IntelliCAD-v1.0.0-Linux-x86_64.tar.gz`), or run in your terminal:
+### Option 1: Debian / Ubuntu `.deb` Package (Recommended)
+
+Download and install with one click, or in your terminal:
+
+```bash
+# 1. Download the .deb package
+curl -L -o intellicad_1.0.0_amd64.deb \
+  https://github.com/TannerNelson16/IntelliCAD/releases/download/v1.0.0/intellicad_1.0.0_amd64.deb
+
+# 2. Install (automatically resolves dependencies)
+sudo apt install ./intellicad_1.0.0_amd64.deb
+
+# 3. Launch
+intellicad
+```
+
+*Or launch **IntelliCAD** directly from your Ubuntu / Linux Applications menu!*
+
+---
+
+### Option 2: Standalone Portable Archive (`.tar.gz`)
+
+If you prefer not to install system-wide via root/sudo:
 
 ```bash
 curl -L -o IntelliCAD-v1.0.0-Linux-x86_64.tar.gz \
@@ -27,11 +52,8 @@ curl -L -o IntelliCAD-v1.0.0-Linux-x86_64.tar.gz \
 tar -xzf IntelliCAD-v1.0.0-Linux-x86_64.tar.gz
 cd IntelliCAD
 ./install.sh
+./run_intellicad.sh
 ```
-
-2. **Launch IntelliCAD**:
-   - Run `./run_intellicad.sh` from the extracted folder, **or**
-   - Launch **IntelliCAD** directly from your Ubuntu / Linux Applications menu!
 
 ---
 
