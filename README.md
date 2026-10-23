@@ -51,7 +51,6 @@ curl -L -o IntelliCAD-v1.0.0-Linux-x86_64.tar.gz \
   https://github.com/TannerNelson16/IntelliCAD/releases/download/v1.0.0/IntelliCAD-v1.0.0-Linux-x86_64.tar.gz
 tar -xzf IntelliCAD-v1.0.0-Linux-x86_64.tar.gz
 cd IntelliCAD
-./install.sh
 ./run_intellicad.sh
 ```
 
